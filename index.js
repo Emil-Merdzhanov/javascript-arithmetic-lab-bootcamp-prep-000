@@ -57,3 +57,9 @@ console.log(dec());
 
 //makeInt(n)
 
+function makeInt(n){
+parseInt(‘n’, 10)
+}
+function preserveDecimal(n){
+return parseFloat(n)
+}
