@@ -57,10 +57,9 @@ console.log(dec());
 
 //makeInt(n)
 
-var a = 45.555
-    b = 10
-function makeInt(a,b) {
-  return parseInt("45.555", 10);
+function makeInt(n){
+parseInt(‘n’, 10)
 }
-
-console.log(makeInt());
+function preserveDecimal(n){
+return parseFloat(n)
+}
